@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #eee;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+/*  @media only screen and (max-width:700px) {
+  
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+  #main-doc {
+    position: relative;
+    top: 300px;
+    margin-left: 0px;
+   
+  }
+}
+ 
+   */
+#navbar h1 {
+  padding: 20px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+#navbar ul li {
+  list-style-type: none;
+  border-bottom: 2px solid black;
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+}
+#navbar ul {
+  height: 88%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#navbar ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 20px 0 20px 40px;
+  background: rgba(128, 128, 128,0.8);
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+ 
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+} 
+
+
+
+
+.main-section {
+  margin: 30px;
+}
+.main-section header {
+  margin-bottom: 15px;
+}
+.main-section p {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.main-section ul {
+  margin-left: 40px;
+}
+.main-section li {
+  margin-bottom: 10px;
+}
+.main-section code {
+  background-color: gray;
+  color: yellow;
+  display: block;
+  padding: 15px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
